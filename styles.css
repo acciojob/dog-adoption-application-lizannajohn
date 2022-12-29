@@ -1,2 +1,18 @@
-
 /* Your CSS Code here. */
+
+*
+{
+    margin: 5px 10px 10px 5px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#name, #phone, #address
+{
+    height: 10px;
+}
+
+#multiSelect
+{
+    height: 170px;
+}

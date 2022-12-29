@@ -3,11 +3,41 @@
 <html>
 
 <head>
+
+	<title> Dog Adoption Application </title>
 	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+
+	<form action="#">
+		<div class="formitem">
+			<input type="text" name="name" id="name" placeholder="Name">
+		</div>
+		<div class="formitem">
+			<input type="text" name="phone" id="phone" placeholder="Phone">
+		</div>
+		<div class="formitem">
+			<input type="text" name="address" id="address" placeholder="Address">
+		</div>
+		<div class="formitem">
+			<input type="checkbox" name="checkbox" id="checkbox" value="Have you ever lived with a Dog before?">
+			<label for="checkboxlabel">Have you ever lived with a Dog before?</label>
+		</div>
+		<div class="formitem">
+			<label for="cars">Choose Preferred Breeds:</label>
+			<br>
+			<select name="dogbreeds" id="multiSelect" multiple>
+				<option value="golden retriever">Golden Retriever</option>
+				<option value="german shepherd">German Shepherd</option>
+				<option value="Poodle">Poodle</option>
+				<option value="Beagle">Beagle</option>
+			</select>
+		</div>
+		<button type="submit" id="submit" value="Submit">Submit</button>
+	</form>
+
     <script type="text/javascript" src="./script.js">
 </script>
 
